@@ -1,0 +1,101 @@
+body {
+  background-color: red;
+  text-align: center;
+  margin: 0;
+  font-family: sans-serif;
+}
+
+h1 {
+  color: blue;
+  background-color: yellow;
+  text-decoration: underline;
+  padding: 20px;
+  margin: 0;
+}
+
+.input-container {
+  margin-top: 20px;
+}
+
+.input-container input {
+  font-size: 20px;
+  padding: 10px;
+  margin: 10px;
+  border-radius: 5px;
+  border: none;
+}
+
+#start-game {
+  font-size: 20px;
+  padding: 10px 20px;
+  background-color: darkorange;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.game {
+  display: grid;
+  grid-template-columns: repeat(3, 200px);
+  grid-template-rows: repeat(3, 169px);
+  gap: 17px;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+.boxe {
+  border: none;
+  border-radius: 23px;
+  background-color: rgb(108, 84, 246);
+  font-size: 100px;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  line-height: 1;
+  overflow: hidden;
+  cursor: pointer;
+}
+
+.boxe.o {
+  color: white;
+}
+
+.boxe.x {
+  color: black;
+}
+
+.reset-container {
+  margin-top: 40px;
+}
+
+.button {
+  width: 180px;
+  height: 70px;
+  background-color: lightgreen;
+  border: none;
+  border-radius: 9px;
+  font-size: 27px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.msg-container {
+  color: darkgreen;
+  font-size: 55px;
+  margin-top: 20px;
+}
+
+#new-button {
+  color: darkgreen;
+  font-size: 45px;
+  border-radius: 7px;
+  background-color: black;
+  margin-top: 34px;
+  padding: 10px 20px;
+}
+
+.hide {
+  display: none;
+}
